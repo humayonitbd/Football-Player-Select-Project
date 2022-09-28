@@ -41,6 +41,20 @@ const Cart = ({cart}) => {
                     <p>Web developer</p>
                 </div>
             </div>
+            <div className='flex justify-between align-center my-3 bg-red-100 p-5 rounded'>
+                <div>
+                    <span className='font-bold text-lg'>55</span><span>kg</span>
+                    <p>Weight</p>
+                </div>
+                <div>
+                <span className='font-bold text-lg'>5.5</span>
+                    <p>Weight</p>
+                </div>
+                <div>
+                <span className='font-bold text-lg'>21</span><span>yrs</span>
+                    <p>Age</p>
+                </div>
+            </div>
             <div>
                 <h3 className='text-lg font-bold my-4'>Add A Break</h3>
                 <ul className='flex justify-between px-4'>
