@@ -6,7 +6,6 @@
 }
 .Home-left-side{
     width: 80%;
-    background-color: red;
     padding: 20px 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -15,7 +14,8 @@
 }
 .Home-right-side{
     width: 20%;
-    background-color: beige;
+    background-color: #c0858f;
+    padding: 30px 10px;
 
 }
 

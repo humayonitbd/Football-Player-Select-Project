@@ -32,7 +32,6 @@ const Home = () => {
                     }
                 </div>
                 <div className="Home-right-side">
-                    <h1>home right site</h1>
                     <Cart cart={carts}></Cart>
                 </div>
             </div>
