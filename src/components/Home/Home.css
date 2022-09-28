@@ -1,0 +1,46 @@
+
+.Home-container{
+    display: flex;
+    justify-content: center;
+
+}
+.Home-left-side{
+    width: 80%;
+    background-color: red;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+}
+.Home-right-side{
+    width: 20%;
+    background-color: beige;
+
+}
+
+
+
+
+@media screen and (max-width: 780px){
+    .Home-container{
+        flex-direction: column-reverse;
+        
+    }
+    .Home-left-side{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    .Home-right-side{
+        width: 100%;
+    
+    }
+}
+@media screen and (max-width: 600px){
+    .Home-left-side{
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    
+}
