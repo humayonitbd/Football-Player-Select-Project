@@ -26,10 +26,13 @@ const Home = () => {
     return (
         <div>
             <div className="Home-container">
+                <div className='Home-left-side-container'>
+                <h2 className='ml-5 text-2xl font-medium my-3'>Select football players exercise</h2>
                 <div className="Home-left-side">
                     {
                         players.map(player => <Player player={player} playerSelectHandler={playerSelectHandler} key={player.id}></Player>)
                     }
+                </div>
                 </div>
                 <div className="Home-right-side">
                     <Cart cart={carts}></Cart>

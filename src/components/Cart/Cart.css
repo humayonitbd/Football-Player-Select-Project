@@ -2,5 +2,51 @@
     background: red;
 }
 
+.my-details{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
 
+
+@media screen and (max-width: 780px){
+    .my-details{
+        flex-direction: row;
+    }
+    .my-skill-sec{
+        width: 65%;
+        margin: 0 15px;
+    }
+    .mySkill{
+        display: none;
+    }
+    .detailsSec{
+        margin: 0;
+        padding: 0 10px;
+    }
+}
+
+
+@media screen  and (max-width: 600px){
+    .my-skill-sec{
+        width: 100%;
+        
+    }
+    .mySkill{
+        display: block;
+    }
+    .profileSec{
+        width: 100%;
+
+    }
+    .detailsSec{
+        margin: 15px 0;
+        padding: 20px 0;
+    }
+    .my-details{
+        flex-direction: column;
+    }
+
+    
+}

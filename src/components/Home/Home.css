@@ -4,8 +4,10 @@
     justify-content: center;
 
 }
-.Home-left-side{
+.Home-left-side-container{
     width: 80%;
+}
+.Home-left-side{
     padding: 20px 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -27,8 +29,10 @@
         flex-direction: column-reverse;
         
     }
-    .Home-left-side{
+    .Home-left-side-container{
         width: 100%;
+    }
+    .Home-left-side{
         grid-template-columns: repeat(2, 1fr);
     
     }

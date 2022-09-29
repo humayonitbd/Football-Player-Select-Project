@@ -4,7 +4,7 @@
         "id": "1",
         "name": "Lionel Messi",
         "time": 30,
-        "img": "https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/12/9/1355055907038/e0428d50-868a-4840-af87-b94579a94da4-460.jpeg",
+        "img": "https://static01.nyt.com/images/2019/04/16/sports/16onsoccerweb-2/merlin_153612873_5bb119b9-8972-4087-b4fd-371cab8c5ba2-superJumbo.jpg",
         "details": "amet consectetur adipisicing elit. Non dignissimos repudiandae soluta similique fugiat assumenda laudantium atque! Quo magni voluptas doloremque nesciunt"
         
       },
@@ -12,7 +12,7 @@
         "id": "2",
         "name": "cristiano ronaldo",
         "time": 40,
-        "img": "https://cdn.britannica.com/63/222663-050-58CCA884/Soccer-forward-Cristiano-Ronaldo-2018.jpg",
+        "img": "https://i.ytimg.com/vi/eNbqZVoXaDw/maxresdefault.jpg",
         "details": "amet consectetur adipisicing elit. Non dignissimos repudiandae soluta similique fugiat assumenda laudantium atque! Quo magni voluptas doloremque nesciunt"
         
       },
@@ -20,7 +20,7 @@
         "id": "3",
         "name": "Xavi",
         "time": 45,
-        "img": "https://upload.wikimedia.org/wikipedia/commons/5/53/Xavi_13981129001173637176666027076571.jpg",
+        "img": "https://www.fcbarcelona.com/fcbarcelona/photo/2022/03/23/0dad4bec-7e68-4295-873c-12a9eb7373db/xavi-debut.jpg",
         "details": "amet consectetur adipisicing elit. Non dignissimos repudiandae soluta similique fugiat assumenda laudantium atque! Quo magni voluptas doloremque nesciunt"
         
       },
@@ -28,7 +28,7 @@
         "id": "4",
         "name": "Andres Iniesta",
         "time": 25,
-        "img": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Andr%C3%A9s_Iniesta_%28cropped%29.jpg",
+        "img": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/08/21/12/andres-iniesta-barcelona.jpg?quality=75&width=982&height=726&auto=webp",
         "details": "amet consectetur adipisicing elit. Non dignissimos repudiandae soluta similique fugiat assumenda laudantium atque! Quo magni voluptas doloremque nesciunt"
         
       },
@@ -36,7 +36,7 @@
         "id": "5",
         "name": "Zlatan Ibrahimovic",
         "time": 15,
-        "img": "https://tmssl.akamaized.net/images/foto/galerie/zlatan-ibrahimovic-ac-mailand-1603008323-49388.jpg?lm=1603008348",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfN9bvvvYTwPAOV_KoJN7CCOTXnRgYuj99kw&usqp=CAU",
         "details": "amet consectetur adipisicing elit. Non dignissimos repudiandae soluta similique fugiat assumenda laudantium atque! Quo magni voluptas doloremque nesciunt"
         
       },
@@ -52,7 +52,7 @@
         "id": "7",
         "name": "Robin van Persie",
         "time": 88,
-        "img": "https://tmssl.akamaized.net/images/foto/galerie/robin-van-persie-1433753294-4702.jpg?lm=1483605985",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx0FylCAylnrpWujXXs2R6eVvIbIMWbWCEbYjPxW8Y5S100KoQYUP4vJd8ilhb9yCpOcc&usqp=CAU",
         "details": "amet consectetur adipisicing elit. Non dignissimos repudiandae soluta similique fugiat assumenda laudantium atque! Quo magni voluptas doloremque nesciunt"
         
       },
@@ -68,7 +68,7 @@
         "id": "9",
         "name": "Yaya Toure",
         "time": 55,
-        "img": "https://tmssl.akamaized.net/images/foto/galerie/yaya-toure-qingdao-huanghai-1582103884-31961.jpg?lm=1582103896",
+        "img": "https://cdn.mos.cms.futurecdn.net/FpcorUC6ooaakAQLYZbjZn-1200-80.jpg",
         "details": "amet consectetur adipisicing elit. Non dignissimos repudiandae soluta similique fugiat assumenda laudantium atque! Quo magni voluptas doloremque nesciunt"
         
       },
@@ -76,7 +76,7 @@
         "id": "10",
         "name": "Edinson Cavani",
         "time": 10,
-        "img": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt41a6b99f59346160/628a7cbb38af8b08096ec72d/20220522_Edinson_Cavani.jpg",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ9MJc3WO-yX5sdUGftFIpGX8jegYUCXbtNg&usqp=CAU",
         "details": "amet consectetur adipisicing elit. Non dignissimos repudiandae soluta similique fugiat assumenda laudantium atque! Quo magni voluptas doloremque nesciunt"
         
       }

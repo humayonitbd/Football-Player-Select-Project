@@ -43,26 +43,31 @@ const Cart = ({cart}) => {
 
     return (
         <div>
-            <div className='flex  justify-start align-center'>
+            <div className="my-details">
+            <div className='flex  justify-start align-center profileSec'>
                 <img className='h-14 w-14 rounded-full mr-3' src={img} alt="" />
                 <div className=''>
                     <h3 className='text-lg font-bold mb-0'>Humayon Forid</h3>
                     <p>Web developer</p>
                 </div>
             </div>
-            <div className='flex justify-between align-center my-3 bg-red-100 p-5 rounded'>
-                <div>
-                    <span className='font-bold text-lg'>55</span><span>kg</span>
-                    <p>Weight</p>
+            <div className='my-skill-sec'>
+            <h3 className='text-lg font-bold lg:my-3 mySkill'>My skill</h3>
+                <div className='flex justify-between align-center detailsSec my-3 bg-red-100 p-5 rounded'>
+                    <div className='text-center'>
+                        <span className='font-bold text-lg'>90</span><span>%</span>
+                        <p>HTML</p>
+                    </div>
+                    <div className='text-center'>
+                    <span className='font-bold text-lg'>85</span><span>%</span>
+                        <p>CSS</p>
+                    </div>
+                    <div className='text-center'>
+                    <span className='font-bold text-lg'>70</span><span>%</span>
+                        <p>JAVA SCRIPT</p>
+                    </div>
                 </div>
-                <div>
-                <span className='font-bold text-lg'>5.5</span>
-                    <p>Weight</p>
-                </div>
-                <div>
-                <span className='font-bold text-lg'>21</span><span>yrs</span>
-                    <p>Age</p>
-                </div>
+            </div>
             </div>
             <div>
                 <h3 className='text-lg font-bold my-4'>Add A Break</h3>
