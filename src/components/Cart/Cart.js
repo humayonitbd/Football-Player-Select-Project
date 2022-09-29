@@ -32,6 +32,10 @@ const Cart = ({cart}) => {
         time = time + info.time;
 
     }
+
+    const toastHandler = () =>{
+        alert('plase toast add...')
+    }
     // console.log(time);
 
     return (
@@ -72,7 +76,7 @@ const Cart = ({cart}) => {
                 <p className='bg-red-100 py-3 px-1 rounded'><strong>Break time: {seconds} seconds</strong></p>
             </div>
             <div className='text-center'>
-                <button className='bg-primary text-white text-center font-bold text-lg py-4 px-8 rounded my-8'>Activity completed</button>
+                <button className='bg-primary text-white text-center font-bold text-lg py-4 px-8 rounded my-8' onClick={toastHandler}>Activity completed</button>
             </div>
         </div>
     );
