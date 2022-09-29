@@ -1,5 +1,5 @@
 import colorNames from 'daisyui/src/colors/colorNames';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Cart.css'
 
 const Cart = ({cart}) => {
@@ -10,20 +10,22 @@ const Cart = ({cart}) => {
     const breackHandler = (data) =>{
         // console.log('breck', data)
         localStorage.setItem('seconds', JSON.stringify(data))
-        const getData = localStorage.getItem('seconds')
-        let newArr = [];
-        if(getData){
-            const newArrtt = JSON.parse(getData)
-            newArr.push(newArrtt)
-        }
-        
-        setSeconds(data,newArr);
+        setSeconds(data);
     }
-    console.log(seconds)
-    // for(const sece of seconds){
-    //     console.log(sece);
+    // console.log(seconds)
+
+    useEffect(()=>{
+        const getData = JSON.parse(localStorage.getItem('seconds'));
+        let arr = [];
+        if(getData){
+            arr.push(getData);
+        }
+        setSeconds(arr);
         
-    // }
+       
+        
+    },[])
+    
     
     let time = 0;
     for(const info of cart){
