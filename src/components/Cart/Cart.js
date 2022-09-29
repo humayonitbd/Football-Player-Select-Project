@@ -7,11 +7,12 @@ import img from './image/humayonitbd.jpg'
 
 const Cart = ({cart}) => {
     const [seconds, setSeconds] = useState([]);
-    const breackHandler = (data) =>{
+    const breackHandler = (e) =>{
+        let data = e.target.innerText;
         localStorage.setItem('seconds', JSON.stringify(data))
         setSeconds(data);
     }
-   
+
     useEffect(()=>{
         const getData = JSON.parse(localStorage.getItem('seconds'));
         let arr = [];
@@ -64,10 +65,10 @@ const Cart = ({cart}) => {
             <div className='mt-5'>
                 <h3 className='text-lg font-bold my-2 bg-primary text-white py-1 px-2 rounded'>Add A Break</h3>
                 <ul className='flex justify-between px-4'>
-                    <li className='bg-purple-50 p-3 rounded-full secondsSec'><span onClick={() => breackHandler(15)}>15</span>s</li>
-                    <li className='bg-purple-50 p-3 rounded-full'><span onClick={() => breackHandler(25)} className='option'>25</span>s</li>
-                    <li className='bg-purple-50 p-3 rounded-full'><span onClick={() => breackHandler(35)} className='option'>35</span>s</li>
-                    <li className='bg-purple-50 p-3 rounded-full'><span onClick={() => breackHandler(10)} className='option'>10</span>s</li>
+                    <li className='bg-purple-50 p-3 rounded-full secondsSec'><span onClick={(e) => breackHandler(e)}>15</span>s</li>
+                    <li className='bg-purple-50 p-3 rounded-full'><span onClick={(e) => breackHandler(e)} className='option'>25</span>s</li>
+                    <li className='bg-purple-50 p-3 rounded-full'><span onClick={(e) => breackHandler(e)} className='option'>35</span>s</li>
+                    <li className='bg-purple-50 p-3 rounded-full'><span onClick={(e) => breackHandler(e)} className='option'>10</span>s</li>
                 </ul>
             </div>
             <div className='mt-8'>
