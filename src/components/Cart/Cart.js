@@ -1,6 +1,8 @@
 import colorNames from 'daisyui/src/colors/colorNames';
 import React, { useEffect, useState } from 'react';
 import './Cart.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = ({cart}) => {
     
