@@ -2,7 +2,6 @@ import React from 'react';
 import './Player.css'
 
 const Player = ({player, playerSelectHandler}) => {
-    // console.log(player)
     const {img, name, time, details} = player;
     return (
         <div className='product-container'>

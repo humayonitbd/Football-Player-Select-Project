@@ -3,13 +3,10 @@ import React, { useEffect, useState } from 'react';
 import './Cart.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import profileImg from './image/humayonitbd2.png'
 import img from './image/humayonitbd.jpg'
 
 const Cart = ({cart}) => {
     
-    // console.log(cart)
-
     const [seconds, setSeconds] = useState([]);
    
     const breackHandler = (data) =>{
@@ -27,11 +24,9 @@ const Cart = ({cart}) => {
         
     },[])
     
-    
     let time = 0;
     for(const info of cart){
         time = time + info.time;
-
     }
 
     const toastHandler = () =>{
@@ -39,8 +34,7 @@ const Cart = ({cart}) => {
             position:"top-center"
         });
     }
-    // console.log(time);
-
+    
     return (
         <div>
             <div className="my-details">

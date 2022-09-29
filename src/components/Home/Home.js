@@ -13,16 +13,11 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setPlayers(data))
     },[])
-    // console.log(players)
     const playerSelectHandler = (player) =>{
-        // console.log('clicked', player);
         const newArray =[...carts, player] 
         setCarts(newArray)
     }
-    // console.log(carts)
-
-
-
+    
     return (
         <div>
             <div className="Home-container">
