@@ -36,7 +36,9 @@ const Cart = ({cart}) => {
     }
 
     const toastHandler = () =>{
-        alert('plase toast add...')
+        toast.success("Activity Complited!!!", {
+            position:"top-center"
+        });
     }
     // console.log(time);
 
@@ -80,6 +82,7 @@ const Cart = ({cart}) => {
             <div className='text-center'>
                 <button className='bg-primary text-white text-center font-bold text-lg py-4 px-8 rounded my-8' onClick={toastHandler}>Activity completed</button>
             </div>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
