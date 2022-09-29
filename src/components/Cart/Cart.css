@@ -31,10 +31,12 @@
 @media screen  and (max-width: 600px){
     .my-skill-sec{
         width: 100%;
+        margin: 15px 0;
         
     }
     .mySkill{
         display: block;
+        
     }
     .profileSec{
         width: 100%;
@@ -42,7 +44,7 @@
     }
     .detailsSec{
         margin: 15px 0;
-        padding: 20px 0;
+        padding: 20px 10px;
     }
     .my-details{
         flex-direction: column;
