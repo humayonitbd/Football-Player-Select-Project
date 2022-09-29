@@ -11,14 +11,12 @@ const Cart = ({cart}) => {
     // console.log(cart)
 
     const [seconds, setSeconds] = useState([]);
+   
     const breackHandler = (data) =>{
-        // console.log('breck', data)
-        
         localStorage.setItem('seconds', JSON.stringify(data))
         setSeconds(data);
     }
-    // console.log(seconds)
-
+   
     useEffect(()=>{
         const getData = JSON.parse(localStorage.getItem('seconds'));
         let arr = [];
@@ -26,8 +24,6 @@ const Cart = ({cart}) => {
             arr.push(getData);
         }
         setSeconds(arr);
-        
-       
         
     },[])
     
@@ -71,7 +67,7 @@ const Cart = ({cart}) => {
             <div>
                 <h3 className='text-lg font-bold my-4'>Add A Break</h3>
                 <ul className='flex justify-between px-4'>
-                    <li className='bg-purple-50 p-3 rounded-full secondSec'><span onClick={() => breackHandler(15)}>15</span>s</li>
+                    <li className='bg-purple-50 p-3 rounded-full'><span onClick={() => breackHandler(15)}>15</span>s</li>
                     <li className='bg-purple-50 p-3 rounded-full'><span onClick={() => breackHandler(25)} className='option'>25</span>s</li>
                     <li className='bg-purple-50 p-3 rounded-full'><span onClick={() => breackHandler(35)} className='option'>35</span>s</li>
                     <li className='bg-purple-50 p-3 rounded-full'><span onClick={() => breackHandler(10)} className='option'>10</span>s</li>
