@@ -4,7 +4,8 @@ import './Question.css'
 const Question = () => {
     return (
 
-        <div className="question-container">
+        <div className="question-container py-6 text-center">
+            <h2 className='text-center text-xl text-white font-bold my-3'>Question Answer</h2>
             <div className='w-10/12 mx-auto'>
             <div className="dropdown">
             <label tabIndex={0} className="btn m-1 bg-primary">React কি এবং এটি কিভাবে কাজ করে?</label>
@@ -27,14 +28,13 @@ const Question = () => {
             <div tabIndex={0} className="dropdown-content card card-compact w-64 p-2 shadow bg-primary text-primary-content">
                 <div className="card-body">
                 <div>
-                   <ol>
-                   <li>API ডেটা আনতে ব্যবহৃত হয়</li>
-                   <li>state পরিবর্তনের উপর চলমান: ইনপুট ক্ষেত্র যাচাই করতে ব্যবহৃত হয়</li>
-                   <li>state পরিবর্তনের উপর চলছে: লাইভ ফিল্টারিং</li>
-                   <li>state পরিবর্তনের উপর চলছে: নতুন অ্যারে মানতে অ্যানিমেশন ট্রিগার করুন</li>
-                   <li>Props পরিবর্তনে চলমান: আনা এপিআই ডেটা আপডেটে করতে ব্যবহৃত হয়</li>
-                   <li>props পরিবর্তনের উপর চলমান: BTC আপডেট করা মূল্য পেতে আনা API ডেটা আপডেট করা ব্যবহৃত হয়</li>
-                   </ol>
+                   1.API ডেটা আনতে ব্যবহৃত হয় 
+                   2.state পরিবর্তনের উপর চলমান: ইনপুট ক্ষেত্র যাচাই করতে ব্যবহৃত হয়
+                   3.state পরিবর্তনের উপর চলছে: লাইভ ফিল্টারিং
+                   4.state পরিবর্তনের উপর চলছে: নতুন অ্যারে মানতে অ্যানিমেশন ট্রিগার করুন
+                   5.Props পরিবর্তনে চলমান: আনা এপিআই ডেটা আপডেটে করতে ব্যবহৃত হয়
+                   6.props পরিবর্তনের উপর চলমান: BTC আপডেট করা মূল্য পেতে আনা API ডেটা আপডেট করা ব্যবহৃত হয়
+                   
                 </div>
                 </div>
             </div>
